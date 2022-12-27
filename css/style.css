@@ -1,0 +1,509 @@
+*{
+margin: 0;
+padding: 0;
+}
+body{
+    height: 10000px;
+   
+      
+}
+.divd{
+    width: 100%;
+    height: 100vh;
+    background-color:white;
+}
+.perant{
+    border: 1px solid;
+    width: 100%;
+    height: 80px;
+    position:fixed ;
+   
+    background-color:black;
+    overflow:auto;
+    opacity: .7;
+    z-index: 1;
+    
+}
+
+img{
+    width: 150px;
+    height: 80px;
+    margin-left: 50px;
+    position: fixed;
+}
+ul{
+    color: white;
+    margin-left: 500px
+}
+li{
+    
+    list-style-type: none;
+    float: left;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+    
+
+a:hover{
+    text-decoration: underline gold;
+    color: cadetblue;
+}
+h1  {
+    text-align: center;
+    padding-top: 100px;
+    font-style: italic;
+    color: black;
+    display: inline-block;
+    margin-left: 500px;
+    text-decoration: underline gold;
+}
+
+button{
+    width: 200px;
+    height: 50px;
+    margin-left: 300px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 100px;
+}
+button:hover{
+   background-color: cadetblue;
+   text-decoration: underline gold;
+   
+}
+p{
+    font-size:larger;
+    text-align: center;
+    color: black;
+}
+.div1{
+    border: 1px solid black;
+    width: 200px;
+    height: 250px;
+    background-color: white;
+    margin: 100px;
+    float: left;
+    
+    }
+    .div1:hover{
+        background-color: cadetblue;
+    }
+   .div1 i{
+
+        text-align: center;
+       display: inline-block;
+        padding-left: 90px;
+        padding-top: 20px;
+        
+    }
+    h2{
+        text-align: center;
+        font-style: italic;
+        font-size:30px;
+        text-decoration: underline black;
+    }
+    h3{
+        text-align: center;
+        color: blue;
+        padding-top: 10px;
+    }
+     .a1{
+        color: black;
+        padding-left: 50px;
+        padding-top: 100px;
+     }
+    .a1:hover{
+        color:rgb(34, 34, 207);
+    }
+     .div2{
+        border: 1px solid black;
+        width: 150px;
+        height: 150px;
+        background-color: white;
+        float: left;
+        margin-left: 90px;
+     }
+     .div2:hover{
+        background-color: cadetblue;
+     }
+     .div-cover{
+        float: left;
+        margin: 80px;
+        display: block;
+     }
+    .img-1{
+        position: absolute; 
+        width: 200px;
+        height: 250px;
+        margin: 20px;
+        margin-top: 5px;
+        z-index: 0;
+        }
+               
+    .div-ph1{
+        position: relative;
+        border: 1px solid black;
+        width: 250px;
+        height: 260px;
+       background-color: white;
+       }
+    h5{
+        text-align: center;
+        font-size: larger;
+        font-style: italic;
+        color: white;
+        padding-top: 10px;
+    }
+    
+    .cover{
+        
+        height:800px;
+        margin: auto;
+        display: block;
+        position: relative;
+       
+    }
+    
+    .div-icon {
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        position: relative;
+        top: 0;
+        visibility: hidden;
+        margin: 20px;
+      
+            }
+           
+            .div-ph1:hover .div-icon{
+                visibility: visible;
+                opacity: 1;
+            }
+   
+
+            .a2{
+                margin-left: 50px;
+                width: 50px;
+                height: 20px;
+                text-align: center;
+                color: white;
+            }
+            .a2 i{
+                margin-top: 50px;
+            }
+  .goals{
+    border: 1px solid black;
+    width: 100%;
+    height: 500px;
+  }
+ 
+  .div-img{
+    border: 1px solid black;
+    width: 100%;
+    height: 300px; 
+    position: relative;
+    background-image: url(../images/exagons-wallpaper-1600x900.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+ }
+  .back-img{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    margin-left: auto;
+  }
+  .icon8{
+    color:white;
+    margin-left: 200px;
+    float: left;
+    margin-top: 80px;
+  }
+  .icon8-title{display:block;
+     font-size: 25px;
+     padding-top: 10px;
+}
+.icon8-num{
+    display: block;
+    font-size: 25px;
+    padding-top: 5px;
+}
+.ab7{
+    font-size: 35;
+    color: aqua; 
+    padding-left: 12px;
+}
+  .li1{
+    font-size: 30px;
+    margin: 6%;
+    margin-top: 7%;
+    color:white;
+    display: inline-block;
+  }
+  .prising{
+    width: 100%;
+    height: 800px;
+    background-color: beige;
+  }
+  
+  .div11{
+    border: 2px solid black;
+    width: 230px;
+    height: 350px;
+    margin-left: 160px;
+    margin-top: 150px;
+    float: left;
+    background-color: transparent;
+    border-radius: 8%;
+  }
+ 
+  
+  .div12{
+    margin-top: 20px;
+    margin-left: 60px;
+    border: 2px solid;
+    width: 100px;
+    height: 100px;
+    border-radius: 50% ;
+    color: black;
+    background-color: rgb(155, 185, 175);
+    text-align: center;
+   }
+   p{
+    
+    text-align: center;
+    color:black;
+    font-size:larger;
+
+   }
+ .but1{
+    margin-top: -50px;
+    margin-left: 10px;
+    color:black;
+    background-color: rgb(155, 185, 175);
+    border-radius: 100px;
+ }
+ .imgfoot{
+    float: left;
+    width: 100%;
+    height: 400px; 
+    background-image: url(../images/exagons-wallpaper-1600x900.jpg);
+    background-attachment:fixed;
+    background-size: cover;
+ }
+ h6{
+    padding: 200px;
+    color:aqua;
+    font-size:medium;
+
+ }
+ .imgme{
+    margin-top: 20px;
+    float: left;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    border-radius: 50%;
+ }
+ .cover-1{
+    width: 100%;
+    height: 100vh;
+ }
+ .our-team{
+    font-size: 50px;
+    padding-top: 90px;
+    color: black;
+}
+.line-team{
+    width: 80px;
+    height: 1px;
+    border: 1px solid blue;
+    background-color: rgb(118, 118, 126);
+    margin: auto;
+    margin-top: 8px;
+}
+ .img-7
+ {
+    width: 230px;
+    height: 160px;
+    position: absolute;
+    margin: 10px  10px ;
+ }
+ .imgf{
+    float: left;
+    margin-left: 80px;
+ }
+ .team-overlay {
+    position: absolute;
+    top: 0;
+    
+    bottom: 0;
+    left: 0;
+    background-color:black;
+    visibility: hidden;
+    opacity: 0.5;
+ }
+ .div-cover:hover::after
+{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    transition: 1s;
+}
+ .div-ph2{
+    border: 1px solid black;
+    width: 250px;
+    height: 250px;
+   background-color: white;
+   position: relative;
+   }
+   .div-ph2:hover .team-overlay{
+    visibility: visible;
+    opacity: 0.5;
+   }
+   .li2{
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(68,179,238);
+    color: white;
+    margin-left: 210px;
+    text-align: center;
+  }
+  .team-info
+  {
+    padding-top: 180px;
+    text-align: center;
+    line-height: 35px;
+    text-decoration: none;
+  }
+  .team-info-text{
+   color: blue; 
+  }
+.team-info-title{
+    text-decoration: none;
+}
+.div-cover{
+    margin-top: 100px;
+}
+
+ 
+ .content-News
+ {
+  
+    width: 90%;
+    height: 100vh;
+    margin: auto;
+ }
+ .Recent-news
+ {
+    text-align: center;
+    font-size: 45px;
+    text-transform: capitalize;
+    padding-top: 100px;
+ }
+ .line-news
+ {
+    width: 80px;
+    height: 1px;
+    background-color: #6195ff;
+    border: 1px solid;
+    margin: auto;
+    margin-top: 5px;
+ }
+ .item-news
+ {
+    width: 28%;
+    height: 500px;
+    border: 1px solid ;
+    margin-top: 45px;
+    position: relative;
+    float: left;
+ }
+ .lol
+ {
+    
+    margin: 4%;
+ }
+ .imag-item-news{
+    position: relative;
+    width: 90%;
+    height: 45%;
+    margin: 5%   5%;
+ }
+ .news-info
+ {
+    width: 90%;
+    height: 45%;
+    margin: 0   5%;
+    
+ }
+ .news-info
+ {
+    color: #6195ff;
+    font-size: 18px;
+ }
+ .span-news
+ {
+    color: black;
+    text-transform: capitalize;
+ }
+ .h3-news
+ {
+    color: black;
+    font-size: 25px;
+    padding-top: 25px;
+ }
+ .p3-news
+ {
+    color: black;
+    font-size: 20px;
+    position: relative;
+ }
+ .read-news  a
+ {
+    text-decoration:none ;
+    position: absolute;
+    padding-top: 10px;
+ }
+ .item-news:after
+ {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 0;
+    right: 0;
+    background-color:black;
+    opacity: 0;
+ }
+ .item-news:hover::after
+ {
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    transition: 1s; 
+ }
+ .img-21{
+   margin-left: 20px;
+  position: absolute;
+  width: 90%;
+   height:100%;
+ }
+ .div-ph1:after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 0;
+    right: 0;
+    background-color:black;
+    opacity: 0;
+ }
+ .div-ph1:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    transition: 1s;  
+ }
